@@ -1,0 +1,625 @@
+
+<ALIGN="CENTER"><IMG SRC="https://1.bp.blogspot.com/-J4uuQPOcVQc/YJti9QWkLaI/AAAAAAAARlQ/65KOwk1CgtcyCVdi-BWUybQvchzflZWywCLcBGAsYHQ/w400-h116/Overlords%2Blogo.png"></ALIGN>
+
+<table border="0" cellpadding="5" cellspacing="0">
+	<tbody>
+		<tr>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;">Name:</span></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;"><input name="attr_Name" size="20" type="text" /></span></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;">To-Hit Bonus:</span></td>
+			<td align="center"><input name="attr_Hit_Bonus" size="2" type="text" /></td>
+		</tr>
+		<tr>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;">Race:</span></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;"><input name="attr_Race" size="20" type="text" /></span></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;">Current Hit Points:</span></td>
+			<td align="center"><input name="attr_HP" size="4" type="text" /></td>
+		</tr>
+		<tr>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;">Career:</span></td>
+			<td align="center"><input name="attr_Career" size="20" type="text" /></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;">Maximum Hit Points:</span></td>
+			<td align="center"><input name="attr_Max_HP" size="4" type="text" /></td>
+		</tr>
+		<tr>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;">Level:</span></td>
+			<td align="center"><input name="attr_Level" size="2" type="text" /></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;">Armor Worn:</span></td>
+			<td align="center"><input name="attr_Armor_Worn" size="25" type="text" /></td>
+		</tr>
+		<tr>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;">Current XP:</span></td>
+			<td align="center"><input name="attr_XP" size="6" type="text" /></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;">Armor Class:</span></td>
+			<td align="center"><input name="attr_AC" size="2" type="text" /></td>
+		</tr>
+		<tr>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;">Height:</span></td>
+			<td align="center"><input name="attr_Height" size="6" type="text" /></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;">Age:</span></td>
+			<td align="center"><input name="attr_Age" size="3" type="text" /></td>
+		</tr>
+		<tr>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;">Weight:</span></td>
+			<td align="center"><input name="attr_Weight" size="6" type="text" /></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;">Gender:</span></td>
+			<td align="center"><input name="attr_Gender" size="10" type="text" /></td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<table border="0" cellpadding="0" cellspacing="0">
+	<tbody>
+		<tr>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;"><strong>STR</strong></span></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;"><input name="attr_STR" size="4" type="text"  class="sheet-short"/></span></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;">Hit</span></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;"><input name="attr_STR_Hit" size="4" type="text"  class="sheet-short"/></span></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;">Dmg</span></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;"><input name="attr_STR_Dmg" size="4" type="text"  class="sheet-short"/></span></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;">Weight</span></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;"><input name="attr_STR_Weight" size="4" type="text"  class="sheet-short"/></span></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;">Lift</span></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;"><input name="attr_STR_Lift" size="4" type="text" class="sheet-short" /></span></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;">Feat</span></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;"><input name="attr_STR_Feat" size="4" type="text"  class="sheet-short"/></span></td>
+		</tr>
+		<tr>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;"><strong>DEX</strong></span></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;"><input name="attr_DEX" size="4" type="text" class="sheet-short"/></span></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;">Reaction</span></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;"><input name="attr_DEX_React" size="4" type="text"  class="sheet-short"/></span></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;">Missile</span></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;"><input name="attr_DEX_Missile" size="4" type="text"  class="sheet-short"/></span></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;">Defense</span></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;"><input name="attr_DEX_AC" size="4" type="text"  class="sheet-short"/></span></td>
+			<td align="center">&nbsp;</td>
+			<td align="center">&nbsp;</td>
+			<td align="center">&nbsp;</td>
+			<td align="center">&nbsp;</td>
+		</tr>
+		<tr>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;"><strong>CON</strong></span></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;"><input name="attr_CON" size="4" type="text"  class="sheet-short"/></span></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;">HP Bonus</span></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;"><input name="attr_CON_HP" size="4" type="text"  class="sheet-short"/></span></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;">Shock</span></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;"><input name="attr_CON_Shock" size="4" type="text"  class="sheet-short"/></span></td>
+			<td align="center">&nbsp;</td>
+			<td align="center">&nbsp;</td>
+			<td align="center">&nbsp;</td>
+			<td align="center">&nbsp;</td>
+			<td align="center">&nbsp;</td>
+			<td align="center">&nbsp;</td>
+		</tr>
+		<tr>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;"><strong>INT</strong></span></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;"><input name="attr_INT" size="4" type="text"  class="sheet-short"/></span></td>
+			<td align="center">&nbsp;</td>
+			<td align="center">&nbsp;</td>
+			<td align="center">&nbsp;</td>
+			<td align="center">&nbsp;</td>
+			<td align="center">&nbsp;</td>
+			<td align="center">&nbsp;</td>
+			<td align="center">&nbsp;</td>
+			<td align="center">&nbsp;</td>
+			<td align="center">&nbsp;</td>
+			<td align="center">&nbsp;</td>
+		</tr>
+		<tr>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;"><strong>WIS</strong></span></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;"><input name="attr_WIS" size="4" type="text"  class="sheet-short"/></span></td>
+			<td align="center">&nbsp;</td>
+			<td align="center">&nbsp;</td>
+			<td align="center">&nbsp;</td>
+			<td align="center">&nbsp;</td>
+			<td align="center">&nbsp;</td>
+			<td align="center">&nbsp;</td>
+			<td align="center">&nbsp;</td>
+			<td align="center">&nbsp;</td>
+			<td align="center">&nbsp;</td>
+			<td align="center">&nbsp;</td>
+		</tr>
+		<tr>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;"><strong>CHA</strong></span></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;"><input name="attr_CHA" size="4" type="text"  class="sheet-short"/></span></td>
+			<td align="center">&nbsp;</td>
+			<td align="center">&nbsp;</td>
+			<td align="center">&nbsp;</td>
+			<td align="center">&nbsp;</td>
+			<td align="center">&nbsp;</td>
+			<td align="center">&nbsp;</td>
+			<td align="center">&nbsp;</td>
+			<td align="center">&nbsp;</td>
+			<td align="center">&nbsp;</td>
+			<td align="center">&nbsp;</td>
+		</tr>
+		<tr>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;"><strong>TECH</strong></span></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;"><input name="attr_TECH" size="4" type="text"  class="sheet-short"/></span></td>
+			<td align="center">&nbsp;</td>
+			<td align="center">&nbsp;</td>
+			<td align="center">&nbsp;</td>
+			<td align="center">&nbsp;</td>
+			<td align="center">&nbsp;</td>
+			<td align="center">&nbsp;</td>
+			<td align="center">&nbsp;</td>
+			<td align="center">&nbsp;</td>
+			<td align="center">&nbsp;</td>
+			<td align="center">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<table border="0" cellpadding="0" cellspacing="0">
+	<tbody>
+		<tr>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;"><strong>Saving Throws</strong></span></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;"><strong>Modifiers</strong></span></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;"><strong>Final</strong></span></td>
+			<td align="center">Roll</td>
+		</tr>
+		<tr>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;">Explosion/Plasma</span></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;"><input name="attr_SAV_EXP" size="2" type="text"  class="sheet-short"/></span></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;"><input name="attr_SAV_EXP_FIN" size="2" type="text"  class="sheet-short"/></span></td>
+			<td align="center"><button type='roll' name='roll_testsave' value='&{template:default} {{name=@{character_name}}} {{Save vs.= Explosion/Plasma}}{{target=20}}{{result=[[1d20 + @{SAV_EXP_FIN}]]}}'></button><span class='dee'></span></td>
+			
+		</tr>
+		<tr>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;">Electrical Shock</span></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;"><input name="attr_SAV_ELE" size="2" type="text"  class="sheet-short"/></span></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;"><input name="attr_SAV_ELE_FIN" size="2" type="text"  class="sheet-short"/></span></td>
+			<td align="center"><button type='roll' name='roll_testsave' value='&{template:default} {{name=@{character_name}}} {{Save vs.= Electrical Shock}}{{target=20}}{{result=[[1d20 + @{SAV_ELE_FIN}]]}}' class='dee'></button></span></td>
+		</tr>
+		<tr>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;">Paralysis/Stun/Fall</span></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;"><input name="attr_SAV_PARA" size="2" type="text"  class="sheet-short"/></span></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;"><input name="attr_SAV_PARA_FIN" size="2" type="text"  class="sheet-short"/></span></td>
+			<td align="center"><button type='roll' name='roll_testsave' value='&{template:default} {{name=@{character_name}}} {{Save vs.= Paralysis/Stun/Fall}}{{target=20}}{{result=[[1d20 + @{SAV_PARA_FIN}]]}}' class='dee'></button></span></td>
+		</tr>
+		<tr>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;">Toxic Atmosphere/Gas/Poison</span></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;"><input name="attr_SAV_ATM" size="2" type="text"  class="sheet-short"/></span></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;"><input name="attr_SAV_ATM_FIN" size="2" type="text"  class="sheet-short"/></span></td>
+			<td align="center"><button type='roll' name='roll_testsave' value='&{template:default} {{name=@{character_name}}} {{Save vs.= Toxic Atmosphere/Gas/Poison}}{{target=20}}{{result=[[1d20 + @{SAV_ATM_FIN}]]}}' class='dee'></button></span></td>
+		</tr>
+		<tr>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;">Suffocation</span></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;"><input name="attr_SAV_SUF" size="2" type="text"  class="sheet-short"/></span></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;"><input name="attr_SAV_SUF_FIN" size="2" type="text" class="sheet-short"/></span></td>
+			<td align="center"><button type='roll' name='roll_testsave' value='&{template:default} {{name=@{character_name}}} {{Save vs.= Suffocation}}{{target=20}}{{result=[[1d20 + @{SAV_SUF_FIN}]]}}' class='dee'></button></span></td>
+		</tr>
+		<tr>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;">Radiation</span></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;"><input name="attr_SAV_RAD" size="2" type="text"  class="sheet-short"/></span></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;"><input name="attr_SAV_RAD_FIN" size="2" type="text"  class="sheet-short"/></span></td>
+			<td align="center"><button type='roll' name='roll_testsave' value='&{template:default} {{name=@{character_name}}} {{Save vs.= Radiation}}{{target=20}}{{result=[[1d20 + @{SAV_RAD_FIN}]]}}' class='dee'></button></span></td>
+		</tr>
+		<tr>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;">Extreme Heat</span></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;"><input name="attr_SAV_HEAT" size="2" type="text"  class="sheet-short"/></span></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;"><input name="attr_SAV_HEAT_FIN" size="2" type="text" class="sheet-short"/></span></td>
+			<td align="center"><button type='roll' name='roll_testsave' value='&{template:default} {{name=@{character_name}}}{{Save vs.= ToExtreme Heat}}{{target=20}} {{result=[[1d20 + @{SAV_HEAT_FIN}]]}}' class='dee'></button></span></td>
+		</tr>
+		<tr>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;">Extreme Cold</span></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;"><input name="attr_SAV_COLD" size="2" type="text" class="sheet-short" /></span></td>
+			<td align="center"><input name="attr_SAV_COLD_FIN" size="2" type="text" class="sheet-short"/></td>
+			<td align="center"><button type='roll' name='roll_testsave' value='&{template:default} {{name=@{character_name}}} {{Save vs.= Extreme Cold}}{{target=20}}{{result=[[1d20 + @{SAV_COLD_FIN}]]}}' class='dee'></button></span></td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<table border="0" cellpadding="0" cellspacing="0">
+	<tbody>
+		<tr>
+			<td align="center">&nbsp;</td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;"><strong>Career Skills</strong></span></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;"><strong>Characteristic</strong></span></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;"><strong>Base</strong></span></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;"><strong>Points</strong></span></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;"><strong>Rating</strong></span></td>
+			<td align="center">Roll</TD>
+		</tr>
+		<tr>
+			<td align="center">1</td>
+			<td align="center"><input name="attr_CAREER_1" size="15" type="text" /></td>
+			<td align="center"><select name="attr_CAR_CHAR_1"><option value="0">(SELECT)</option><option value="@{STR}">STR</option><option value="@{DEX}">DEX</option><option value="@{CON}">CON</option><option value="@{INT}">INT</option><option value="@{WIS}">WIS</option><option value="@{CHA}">CHA</option><option value="@{TECH}">TECH</option></select></td>
+			<td align="center"><input name="attr_CAR_BASE_1" size="2" type="text" value="(@{CAR_CHAR_1})"  disabled="true" class="sheet-short"></td>
+			<td align="center"><input name="attr_CAR_PTS_1" size="2" type="text"  VALUE="0" class="sheet-short"></td>
+			<td align="center"><input name="attr_CAR_RAT_1" size="2" type="text" value="(@{CAR_BASE_1}+@{CAR_PTS_1})"  disabled="true" class="sheet-short"></td>
+			<td align="center"><button type='roll' name='roll_testskill' value='&{template:default} {{name=@{character_name}}} {{skill=@{CAREER_1}}} {{target=[[@{CAR_RAT_1}]]}} {{Skill check =[[1d100-1]]}}' class='dee'></button></span></td>
+		</tr>
+		<tr>
+			<td align="center">2</td>
+			<td align="center"><input name="attr_CAREER_2" size="15" type="text" /></td>
+			<td align="center"><select name="attr_CAR_CHAR_2"><option value="0">(SELECT)</option><option value="@{STR}">STR</option><option value="@{DEX}">DEX</option><option value="@{CON}">CON</option><option value="@{INT}">INT</option><option value="@{WIS}">WIS</option><option value="@{CHA}">CHA</option><option value="@{TECH}">TECH</option></select></td>
+			<td align="center"><input name="attr_CAR_BASE_2" size="2" type="text" value="(@{CAR_CHAR_2})"  disabled="true" class="sheet-short"></td>
+			<td align="center"><input name="attr_CAR_PTS_2" size="2" type="text" VALUE="0" class="sheet-short"></td>
+			<td align="center"><input name="attr_CAR_RAT_2" size="2" type="text" value="(@{CAR_BASE_2}+@{CAR_PTS_2})"  disabled="true" class="sheet-short"></td>
+			<td align="center"><button type='roll' name='roll_testskill' value='&{template:default} {{name=@{character_name}}} {{skill=@{CAREER_2}}} {{target=[[@{CAR_RAT_2}]]}} {{Skill check =[[1d100-1]]}}' class='dee'></button></span></td>
+		</tr>
+		<tr>
+			<td align="center">3</td>
+			<td align="center"><input name="attr_CAREER_3" size="15" type="text" /></td>
+			<td align="center"><select name="attr_CAR_CHAR_3"><option value="0">(SELECT)</option><option value="@{STR}">STR</option><option value="@{DEX}">DEX</option><option value="@{CON}">CON</option><option value="@{INT}">INT</option><option value="@{WIS}">WIS</option><option value="@{CHA}">CHA</option><option value="@{TECH}">TECH</option></select></td>
+			<td align="center"><input name="attr_CAR_BASE_3" size="2" type="text" value="(@{CAR_CHAR_3})"  disabled="true" class="sheet-short"></td>
+			<td align="center"><input name="attr_CAR_PTS_3" size="2" type="text" VALUE="0" class="sheet-short"></td>
+			<td align="center"><input name="attr_CAR_RAT_3" size="2" type="text" value="(@{CAR_BASE_3}+@{CAR_PTS_3})"  disabled="true" class="sheet-short"></td>
+			<td align="center"><button type='roll' name='roll_testskill' value='&{template:default} {{name=@{character_name}}} {{skill=@{CAREER_3}}} {{target=[[@{CAR_RAT_3}]]}} {{Skill check =[[1d100-1]]}}' class='dee'></button></span></td>
+		</tr>
+		<tr>
+			<td align="center">4</td>
+			<td align="center"><input name="attr_CAREER_4" size="15" type="text" /></td>
+			<td align="center"><select name="attr_CAR_CHAR_4"><option value="0">(SELECT)</option><option value="@{STR}">STR</option><option value="@{DEX}">DEX</option><option value="@{CON}">CON</option><option value="@{INT}">INT</option><option value="@{WIS}">WIS</option><option value="@{CHA}">CHA</option><option value="@{TECH}">TECH</option></select></td>
+			<td align="center"><input name="attr_CAR_BASE_4" size="2" type="text" value="(@{CAR_CHAR_4})"  disabled="true" class="sheet-short"></td>
+			<td align="center"><input name="attr_CAR_PTS_4" size="2" type="text" VALUE="0" class="sheet-short"></td>
+			<td align="center"><input name="attr_CAR_RAT_4" size="2" type="text" value="(@{CAR_BASE_4}+@{CAR_PTS_4})"  disabled="true" class="sheet-short"></td>
+			<td align="center"><button type='roll' name='roll_testskill' value='&{template:default} {{name=@{character_name}}} {{skill=@{CAREER_4}}} {{target=[[@{CAR_RAT_4}]]}} {{Skill check =[[1d100-1]]}}' class='dee'></button></span></td>
+		</tr>
+		<tr>
+			<td align="center">5</td>
+			<td align="center"><input name="attr_CAREER_5" size="15" type="text" /></td>
+			<td align="center"><select name="attr_CAR_CHAR_5"><option value="0">(SELECT)</option><option value="@{STR}">STR</option><option value="@{DEX}">DEX</option><option value="@{CON}">CON</option><option value="@{INT}">INT</option><option value="@{WIS}">WIS</option><option value="@{CHA}">CHA</option><option value="@{TECH}">TECH</option></select></td>
+			<td align="center"><input name="attr_CAR_BASE_5" size="2" type="text" value="(@{CAR_CHAR_5})"  disabled="true" class="sheet-short"></td>
+			<td align="center"><input name="attr_CAR_PTS_5" size="2" type="text" VALUE="0" class="sheet-short"></td>
+			<td align="center"><input name="attr_CAR_RAT_5" size="2" type="text" value="(@{CAR_BASE_5}+@{CAR_PTS_5})"  disabled="true" class="sheet-short"></td>
+			<td align="center"><button type='roll' name='roll_testskill' value='&{template:default} {{name=@{character_name}}} {{skill=@{CAREER_5}}} {{target=[[@{CAR_RAT_5}]]}} {{Skill check =[[1d100-1]]}}' class='dee'></button></span></td>
+		</tr>
+		<tr>
+			<td align="center">6</td>
+			<td align="center"><input name="attr_CAREER_6" size="15" type="text" /></td>
+			<td align="center"><select name="attr_CAR_CHAR_6"><option value="0">(SELECT)</option><option value="@{STR}">STR</option><option value="@{DEX}">DEX</option><option value="@{CON}">CON</option><option value="@{INT}">INT</option><option value="@{WIS}">WIS</option><option value="@{CHA}">CHA</option><option value="@{TECH}">TECH</option></select></td>
+			<td align="center"><input name="attr_CAR_BASE_6" size="2" type="text" value="(@{CAR_CHAR_6})"  disabled="true" class="sheet-short"></td>
+			<td align="center"><input name="attr_CAR_PTS_6" size="2" type="text" VALUE="0" class="sheet-short"></td>
+			<td align="center"><input name="attr_CAR_RAT_6" size="2" type="text" value="(@{CAR_BASE_6}+@{CAR_PTS_6})"  disabled="true" class="sheet-short"></td>
+			<td align="center"><button type='roll' name='roll_testskill' value='&{template:default} {{name=@{character_name}}} {{skill=@{CAREER_6}}} {{target=[[@{CAR_RAT_6}]]}} {{Skill check =[[1d100-1]]}}' class='dee'></button></span></td>
+		</tr>
+		<tr>
+			<td align="center">7</td>
+			<td align="center"><input name="attr_CAREER_7" size="15" type="text" /></td>
+			<td align="center"><select name="attr_CAR_CHAR_7"><option value="0">(SELECT)</option><option value="@{STR}">STR</option><option value="@{DEX}">DEX</option><option value="@{CON}">CON</option><option value="@{INT}">INT</option><option value="@{WIS}">WIS</option><option value="@{CHA}">CHA</option><option value="@{TECH}">TECH</option></select></td>
+			<td align="center"><input name="attr_CAR_BASE_7" size="2" type="text" value="(@{CAR_CHAR_7})"  disabled="true" class="sheet-short"></td>
+			<td align="center"><input name="attr_CAR_PTS_7" size="2" type="text" VALUE="0" class="sheet-short"></td>
+			<td align="center"><input name="attr_CAR_RAT_7" size="2" type="text" value="(@{CAR_BASE_7}+@{CAR_PTS_7})"  disabled="true" class="sheet-short"></td>
+			<td align="center"><button type='roll' name='roll_testskill' value='&{template:default} {{name=@{character_name}}} {{skill=@{CAREER_7}}} {{target=[[@{CAR_RAT_7}]]}} {{Skill check =[[1d100-1]]}}' class='dee'></button></span></td>		</tr>
+		<tr>
+			<td align="center">8</td>
+			<td align="center"><input name="attr_CAREER_8" size="15" type="text" /></td>
+			<td align="center"><select name="attr_CAR_CHAR_8"><option value="0">(SELECT)</option><option value="@{STR}">STR</option><option value="@{DEX}">DEX</option><option value="@{CON}">CON</option><option value="@{INT}">INT</option><option value="@{WIS}">WIS</option><option value="@{CHA}">CHA</option><option value="@{TECH}">TECH</option></select></td>
+			<td align="center"><input name="attr_CAR_BASE_8" size="2" type="text" value="(@{CAR_CHAR_8})" disabled="true" class="sheet-short"/></td>
+			<td align="center"><input name="attr_CAR_PTS_8" size="2" type="text" VALUE="0" class="sheet-short"></td>
+			<td align="center"><input name="attr_CAR_RAT_8" size="2" type="text" value="(@{CAR_BASE_8}+@{CAR_PTS_8})"  disabled="true" class="sheet-short"></td>
+			<td align="center"><button type='roll' name='roll_testskill' value='&{template:default} {{name=@{character_name}}} {{skill=@{CAREER_8}}} {{target=[[@{CAR_RAT_8}]]}} {{Skill check =[[1d100-1]]}}' class='dee'></button></span></td>		</tr>
+		<tr>
+			<td align="center">&nbsp;</td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;"><strong>General Skills</strong></span></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;"><strong>Characteristic</strong></span></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;"><strong>Base</strong></span></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;"><strong>Points</strong></span></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;"><strong>Rating</strong></span></td>
+			<td align="center">Roll</td>
+		</tr>
+		<tr>
+			<td align="center">1</td>
+			<td align="center"><input name="attr_GENERAL_1" size="15" type="text" /></td>
+			<td align="center"><select name="attr_GEN_CHAR_1"><option value="0">(SELECT)</option><option value="@{STR}">STR</option><option value="@{DEX}">DEX</option><option value="@{CON}">CON</option><option value="@{INT}">INT</option><option value="@{WIS}">WIS</option><option value="@{CHA}">CHA</option><option value="@{TECH}">TECH</option></select></td>
+			<td align="center"><input name="attr_GEN_BASE_1" size="2" type="text" value="(@{GEN_CHAR_3})" disabled="true" class="sheet-short"/></td>
+			<td align="center"><input name="attr_GEN_PTS_1" size="2" type="text" VALUE="0" class="sheet-short"></td>
+			<td align="center"><input name="attr_GEN_RAT_1" size="2" type="text" value="(@{GEN_BASE_1}+@{GEN_PTS_1})"  disabled="true" class="sheet-short"></td>
+			<td align="center"><button type='roll' name='roll_testskill' value='&{template:default} {{name=@{character_name}}} {{skill=@{GENERAL_1}}} {{target=[[@{GEN_RAT_1}]]}} {{Skill check =[[1d100-1]]}}' class='dee'></button></span></td>
+		</tr>
+		<tr>
+			<td align="center">2</td>
+			<td align="center"><input name="attr_GENERAL_2" size="15" type="text" /></td>
+			<td align="center"><select name="attr_GEN_CHAR_2"><option value="0">(SELECT)</option><option value="@{STR}">STR</option><option value="@{DEX}">DEX</option><option value="@{CON}">CON</option><option value="@{INT}">INT</option><option value="@{WIS}">WIS</option><option value="@{CHA}">CHA</option><option value="@{TECH}">TECH</option></select></td>
+			<td align="center"><input name="attr_GEN_BASE_2" size="2" type="text" value="(@{GEN_CHAR_2})" disabled="true"  class="sheet-short"/></td>
+			<td align="center"><input name="attr_GEN_PTS_2" size="2" type="text" VALUE="0" class="sheet-short"></td>
+			<td align="center"><input name="attr_GEN_RAT_2" size="2" type="text"  value="(@{GEN_BASE_2}+@{GEN_PTS_2})"  disabled="true" class="sheet-short"></td>
+			<td align="center"><button type='roll' name='roll_testskill' value='&{template:default} {{name=@{character_name}}} {{skill=@{GENERAL_2}}} {{target=[[@{GEN_RAT_2}]]}} {{Skill check =[[1d100-1]]}}' class='dee'></button></span></td>		</tr>
+		<tr>
+			<td align="center">3</td>
+			<td align="center"><input name="attr_GENERAL_3" size="15" type="text" /></td>
+			<td align="center"><select name="attr_GEN_CHAR_3"><option value="0">(SELECT)</option><option value="@{STR}">STR</option><option value="@{DEX}">DEX</option><option value="@{CON}">CON</option><option value="@{INT}">INT</option><option value="@{WIS}">WIS</option><option value="@{CHA}">CHA</option><option value="@{TECH}">TECH</option></select></td>
+			<td align="center"><input name="attr_GEN_BASE_3" size="2" type="text"value="(@{GEN_CHAR_3})" disabled="true"  class="sheet-short"/></td>
+			<td align="center"><input name="attr_GEN_PTS_3" size="2" type="text" VALUE="0" class="sheet-short"></td>
+			<td align="center"><input name="attr_GEN_RAT_3" size="2" type="text"  value="(@{GEN_BASE_3}+@{GEN_PTS_3})"  disabled="true" class="sheet-short"></td>
+			<td align="center"><button type='roll' name='roll_testskill' value='&{template:default} {{name=@{character_name}}} {{skill=@{GENERAL_3}}} {{target=[[@{GEN_RAT_3}]]}} {{Skill check =[[1d100-1]]}}' class='dee'></button></span></td>
+		</tr>
+		<tr>
+			<td align="center">4</td>
+			<td align="center"><input name="attr_GENERAL_4" size="15" type="text" /></td>
+			<td align="center"><select name="attr_GEN_CHAR_4"><option value="0">(SELECT)</option><option value="@{STR}">STR</option><option value="@{DEX}">DEX</option><option value="@{CON}">CON</option><option value="@{INT}">INT</option><option value="@{WIS}">WIS</option><option value="@{CHA}">CHA</option><option value="@{TECH}">TECH</option></select></td>
+			<td align="center"><input name="attr_GEN_BASE_4" size="2" type="text" value="(@{GEN_CHAR_4})" disabled="true" class="sheet-short"/></td>
+			<td align="center"><input name="attr_GEN_PTS_4" size="2" type="text" VALUE="0" class="sheet-short"></td>
+			<td align="center"><input name="attr_GEN_RAT_4" size="2" type="text"  value="(@{GEN_BASE_4}+@{GEN_PTS_4})"  disabled="true" class="sheet-short"></td>
+			<td align="center"><button type='roll' name='roll_testskill' value='&{template:default} {{name=@{character_name}}} {{skill=@{GENERAL_4}}} {{target=[[@{GEN_RAT_4}]]}} {{Skill check =[[1d100-1]]}}' class='dee'></button></span></td>
+		</tr>
+		<tr>
+			<td align="center">5</td>
+			<td align="center"><input name="attr_GENERAL_5" size="15" type="text" /></td>
+			<td align="center"><select name="attr_GEN_CHAR_5"><option value="0">(SELECT)</option><option value="@{STR}">STR</option><option value="@{DEX}">DEX</option><option value="@{CON}">CON</option><option value="@{INT}">INT</option><option value="@{WIS}">WIS</option><option value="@{CHA}">CHA</option><option value="@{TECH}">TECH</option></select></td>
+			<td align="center"><input name="attr_GEN_BASE_5" size="2" type="text" value="(@{GEN_CHAR_5})" disabled="true"  class="sheet-short"/></td>
+			<td align="center"><input name="attr_GEN_PTS_5" size="2" type="text" VALUE="0" class="sheet-short"></td>
+			<td align="center"><input name="attr_GEN_RAT_5" size="2" type="text"  value="(@{GEN_BASE_5}+@{GEN_PTS_5})"  disabled="true" class="sheet-short"></td>
+			<td align="center"><button type='roll' name='roll_testskill' value='&{template:default} {{name=@{character_name}}} {{skill=@{GENERAL_5}}} {{target=[[@{GEN_RAT_5}]]}} {{Skill check =[[1d100-1]]}}' class='dee'></button></span></td>
+		</tr>
+		<tr>
+			<td align="center">6</td>
+			<td align="center"><input name="attr_GENERAL_6" size="15" type="text" /></td>
+			<td align="center"><select name="attr_GEN_CHAR_6"><option value="0">(SELECT)</option><option value="@{STR}">STR</option><option value="@{DEX}">DEX</option><option value="@{CON}">CON</option><option value="@{INT}">INT</option><option value="@{WIS}">WIS</option><option value="@{CHA}">CHA</option><option value="@{TECH}">TECH</option></select></td>
+			<td align="center"><input name="attr_GEN_BASE_6" size="2" type="text" value="(@{GEN_CHAR_6})" disabled="true" class="sheet-short"/></td>
+			<td align="center"><input name="attr_GEN_PTS_6" size="2" type="text" VALUE="0" class="sheet-short"></td>
+			<td align="center"><input name="attr_GEN_RAT_6" size="2" type="text"  value="(@{GEN_BASE_6}+@{GEN_PTS_6})"  disabled="true" class="sheet-short"></td>
+			<td align="center"><button type='roll' name='roll_testskill' value='&{template:default} {{name=@{character_name}}} {{skill=@{GENERAL_6}}} {{target=[[@{GEN_RAT_6}]]}} {{Skill check =[[1d100-1]]}}' class='dee'></button></span></td>
+		</tr>
+		<tr>
+			<td align="center">7</td>
+			<td align="center"><input name="attr_GENERAL_7" size="15" type="text" /></td>
+			<td align="center"><select name="attr_GEN_CHAR_7"><option value="0">(SELECT)</option><option value="@{STR}">STR</option><option value="@{DEX}">DEX</option><option value="@{CON}">CON</option><option value="@{INT}">INT</option><option value="@{WIS}">WIS</option><option value="@{CHA}">CHA</option><option value="@{TECH}">TECH</option></select></td>
+			<td align="center"><input name="attr_GEN_BASE_7" size="2" type="text" value="(@{GEN_CHAR_7})" disabled="true" class="sheet-short"/></td>
+			<td align="center"><input name="attr_GEN_PTS_7" size="2" type="text" VALUE="0" class="sheet-short"></td>
+			<td align="center"><input name="attr_GEN_RAT_7" size="2" type="text"  value="(@{GEN_BASE_7}+@{GEN_PTS_7})"  disabled="true" class="sheet-short"></td>
+			<td align="center"><button type='roll' name='roll_testskill' value='&{template:default} {{name=@{character_name}}} {{skill=@{GENERAL_7}}} {{target=[[@{GEN_RAT_7}]]}} {{Skill check =[[1d100-1]]}}' class='dee'></button></span></td>
+		</tr>
+		<tr>
+			<td align="center">8</td>
+			<td align="center"><input name="attr_GENERAL_8" size="15" type="text" /></td>
+			<td align="center"><select name="attr_GEN_CHAR_8"><option value="0">(SELECT)</option><option value="@{STR}">STR</option><option value="@{DEX}">DEX</option><option value="@{CON}">CON</option><option value="@{INT}">INT</option><option value="@{WIS}">WIS</option><option value="@{CHA}">CHA</option><option value="@{TECH}">TECH</option></select></td>
+			<td align="center"><input name="attr_GEN_BASE_8" size="2" type="text" value="(@{GEN_CHAR_8})" disabled="true" class="sheet-short"/></td>
+			<td align="center"><input name="attr_GEN_PTS_8" size="2" type="text" VALUE="0" class="sheet-short"></td>
+			<td align="center"><input name="attr_GEN_RAT_8" size="2" type="text"  value="(@{GEN_BASE_8}+@{GEN_PTS_8})"  disabled="true" class="sheet-short"></td>
+			<td align="center"><button type='roll' name='roll_testskill' value='&{template:default} {{name=@{character_name}}} {{skill=@{GENERAL_8}}} {{target=[[@{GEN_RAT_8}]]}} {{Skill check =[[1d100-1]]}}' class='dee'></button></span></td>
+		</tr>
+		<tr>
+			<td align="center">9</td>
+			<td align="center"><input name="attr_GENERAL_9" size="15" type="text" /></td>
+			<td align="center"><select name="attr_GEN_CHAR_9"><option value="0">(SELECT)</option><option value="@{STR}">STR</option><option value="@{DEX}">DEX</option><option value="@{CON}">CON</option><option value="@{INT}">INT</option><option value="@{WIS}">WIS</option><option value="@{CHA}">CHA</option><option value="@{TECH}">TECH</option></select></td>
+			<td align="center"><input name="attr_GEN_BASE_9" size="2" type="text" value="(@{GEN_CHAR_9})" disabled="true"  class="sheet-short"/></td>
+			<td align="center"><input name="attr_GEN_PTS_9" size="2" type="text" VALUE="0" class="sheet-short"></td>
+			<td align="center"><input name="attr_GEN_RAT_9" size="2" type="text"  value="(@{GEN_BASE_9}+@{GEN_PTS_9})"  disabled="true" class="sheet-short"></td>
+			<td align="center"><button type='roll' name='roll_testskill' value='&{template:default} {{name=@{character_name}}} {{skill=@{GENERAL_9}}} {{target=[[@{GEN_RAT_9}]]}} {{Skill check =[[1d100-1]]}}' class='dee'></button></span></td>
+		</tr>
+		<tr>
+			<td align="center">10</td>
+			<td align="center"><input name="attr_GENERAL_10" size="15" type="text" /></td>
+			<td align="center"><select name="attr_GEN_CHAR_10"><option value="0">(SELECT)</option><option value="@{STR}">STR</option><option value="@{DEX}">DEX</option><option value="@{CON}">CON</option><option value="@{INT}">INT</option><option value="@{WIS}">WIS</option><option value="@{CHA}">CHA</option><option value="@{TECH}">TECH</option></select></td>
+			<td align="center"><input name="attr_GEN_BASE_10" size="2" type="text" value="(@{GEN_CHAR_10})" disabled="true" class="sheet-short"/></td>
+			<td align="center"><input name="attr_GEN_PTS_10" size="2" type="text" VALUE="0" class="sheet-short"></td>
+			<td align="center"><input name="attr_GEN_RAT_10" size="2" type="text"  value="(@{GEN_BASE_10}+@{GEN_PTS_10})"  disabled="true" class="sheet-short"></td>
+			<td align="center"><button type='roll' name='roll_testskill' value='&{template:default} {{name=@{character_name}}} {{skill=@{GENERAL_10}}} {{target=[[@{GEN_RAT_10}]]}} {{Skill check =[[1d100-1]]}}' class='dee'></button></span></td>
+		</tr>
+		<tr>
+			<td align="center">11</td>
+			<td align="center"><input name="attr_GENERAL_11" size="15" type="text" /></td>
+			<td align="center"><select name="attr_GEN_CHAR_11"><option value="0">(SELECT)</option><option value="@{STR}">STR</option><option value="@{DEX}">DEX</option><option value="@{CON}">CON</option><option value="@{INT}">INT</option><option value="@{WIS}">WIS</option><option value="@{CHA}">CHA</option><option value="@{TECH}">TECH</option></select></td>
+			<td align="center"><input name="attr_GEN_BASE_11" size="2" type="text" value="(@{GEN_CHAR_11})" disabled="true" class="sheet-short"/></td>
+			<td align="center"><input name="attr_GEN_PTS_11" size="2" type="text" VALUE="0" class="sheet-short"></td>
+			<td align="center"><input name="attr_GEN_RAT_11" size="2" type="text"  value="(@{GEN_BASE_11}+@{GEN_PTS_11})"  disabled="true" class="sheet-short"></td>
+			<td align="center"><button type='roll' name='roll_testskill' value='&{template:default} {{name=@{character_name}}} {{skill=@{GENERAL_11}}} {{target=[[@{GEN_RAT_11}]]}} {{Skill check =[[1d100-10]]}}' class='dee'></button></span></td>
+		</tr>
+		<tr>
+			<td align="center">12</td>
+			<td align="center"><input name="attr_GENERAL_12" size="15" type="text" /></td>
+			<td align="center"><select name="attr_GEN_CHAR_12"><option value="0">(SELECT)</option><option value="@{STR}">STR</option><option value="@{DEX}">DEX</option><option value="@{CON}">CON</option><option value="@{INT}">INT</option><option value="@{WIS}">WIS</option><option value="@{CHA}">CHA</option><option value="@{TECH}">TECH</option></select></td>
+			<td align="center"><input name="attr_GEN_BASE_12" size="2" type="text" value="(@{GEN_CHAR_12})" disabled="true" class="sheet-short"/></td>
+			<td align="center"><input name="attr_GEN_PTS_12" size="2" type="text" VALUE="0" class="sheet-short"></td>
+			<td align="center"><input name="attr_GEN_RAT_12" size="2" type="text"  value="(@{GEN_BASE_12}+@{GEN_PTS_12})"  disabled="true" class="sheet-short"></td>
+			<td align="center"><button type='roll' name='roll_testskill' value='&{template:default} {{name=@{character_name}}} {{skill=@{GENERAL_12}}} {{target=[[@{GEN_RAT_12}]]}} {{Skill check =[[1d100-1]]}}' class='dee'></button></span></td>
+		</tr>
+		<tr>
+			<td align="center">13</td>
+			<td align="center"><input name="attr_GENERAL_13" size="15" type="text" /></td>
+			<td align="center"><select name="attr_GEN_CHAR_13"><option value="0">(SELECT)</option><option value="@{STR}">STR</option><option value="@{DEX}">DEX</option><option value="@{CON}">CON</option><option value="@{INT}">INT</option><option value="@{WIS}">WIS</option><option value="@{CHA}">CHA</option><option value="@{TECH}">TECH</option></select></td>
+			<td align="center"><input name="attr_GEN_BASE_13" size="2" type="text" value="(@{GEN_CHAR_13})" disabled="true" class="sheet-short"/></td>
+			<td align="center"><input name="attr_GEN_PTS_13" size="2" type="text" VALUE="0" class="sheet-short"></td>
+			<td align="center"><input name="attr_GEN_RAT_13" size="2" type="text"  value="(@{GEN_BASE_13}+@{GEN_PTS_13})"  disabled="true" class="sheet-short"></td>
+			<td align="center"><button type='roll' name='roll_testskill' value='&{template:default} {{name=@{character_name}}} {{skill=@{GENERAL_13}}} {{target=[[@{GEN_RAT_13}]]}} {{Skill check =[[1d100-1]]}}' class='dee'></button></span></td>
+		</tr>
+		<tr>
+			<td align="center">14</td>
+			<td align="center"><input name="attr_GENERAL_14" size="15" type="text" /></td>
+			<td align="center"><select name="attr_GEN_CHAR_14"><option value="0">(SELECT)</option><option value="@{STR}">STR</option><option value="@{DEX}">DEX</option><option value="@{CON}">CON</option><option value="@{INT}">INT</option><option value="@{WIS}">WIS</option><option value="@{CHA}">CHA</option><option value="@{TECH}">TECH</option></select></td>
+			<td align="center"><input name="attr_GEN_BASE_14" size="2" type="text" value="(@{GEN_CHAR_14})" disabled="true" class="sheet-short"/></td>
+			<td align="center"><input name="attr_GEN_PTS_14" size="2" type="text" VALUE="0" class="sheet-short"></td>
+			<td align="center"><input name="attr_GEN_RAT_14" size="2" type="text"  value="(@{GEN_BASE_14}+@{GEN_PTS_14})"  disabled="true" class="sheet-short"></td>
+			<td align="center"><button type='roll' name='roll_testskill' value='&{template:default} {{name=@{character_name}}} {{skill=@{GENERAL_14}}} {{target=[[@{GEN_RAT_14}]]}} {{Skill check =[[1d100-1]]}}' class='dee'></button></span></td>
+		</tr>
+		<tr>
+			<td align="center">15</td>
+			<td align="center"><input name="attr_GENERAL_15" size="15" type="text" /></td>
+			<td align="center"><select name="attr_GEN_CHAR_15"><option value="0">(SELECT)</option><option value="@{STR}">STR</option><option value="@{DEX}">DEX</option><option value="@{CON}">CON</option><option value="@{INT}">INT</option><option value="@{WIS}">WIS</option><option value="@{CHA}">CHA</option><option value="@{TECH}">TECH</option></select></td>
+			<td align="center"><input name="attr_GEN_BASE_15" size="2" type="text" value="(@{GEN_CHAR_15})" disabled="true" class="sheet-short"/></td>
+			<td align="center"><input name="attr_GEN_PTS_15" size="2" type="text" VALUE="0" class="sheet-short"></td>
+			<td align="center"><input name="attr_GEN_RAT_15" size="2" type="text"  value="(@{GEN_BASE_15}+@{GEN_PTS_15})"  disabled="true" class="sheet-short"></td>
+			<td align="center"><button type='roll' name='roll_testskill' value='&{template:default} {{name=@{character_name}}} {{skill=@{GENERAL_15}}} {{target=[[@{GEN_RAT_15}]]}} {{Skill check =[[1d100-1]]}}' class='dee'></button></span></td>
+		</tr>
+		<tr>
+			<td align="center">16</td>
+			<td align="center"><input name="attr_GENERAL_16" size="15" type="text" /></td>
+			<td align="center"><select name="attr_GEN_CHAR_16"><option value="0">(SELECT)</option><option value="@{STR}">STR</option><option value="@{DEX}">DEX</option><option value="@{CON}">CON</option><option value="@{INT}">INT</option><option value="@{WIS}">WIS</option><option value="@{CHA}">CHA</option><option value="@{TECH}">TECH</option></select></td>
+			<td align="center"><input name="attr_GEN_BASE_16" size="2" type="text" value="(@{GEN_CHAR_16})" disabled="true" class="sheet-short"/></td>
+			<td align="center"><input name="attr_GEN_PTS_16" size="2" type="text" VALUE="0" class="sheet-short"></td>
+			<td align="center"><input name="attr_GEN_RAT_16" size="2" type="text"  value="(@{GEN_BASE_16}+@{GEN_PTS_16})"  disabled="true" class="sheet-short"></td>
+			<td align="center"><button type='roll' name='roll_testskill' value='&{template:default} {{name=@{character_name}}} {{skill=@{GENERAL_16}}} {{target=[[@{GEN_RAT_16}]]}} {{Skill check =[[1d100-1]]}}' class='dee'></button></span></td>
+		</tr>
+		<tr>
+			<td align="center">17</td>
+			<td align="center"><input name="attr_GENERAL_17" size="15" type="text" /></td>
+			<td align="center"><select name="attr_GEN_CHAR_17"><option value="0">(SELECT)</option><option value="@{STR}">STR</option><option value="@{DEX}">DEX</option><option value="@{CON}">CON</option><option value="@{INT}">INT</option><option value="@{WIS}">WIS</option><option value="@{CHA}">CHA</option><option value="@{TECH}">TECH</option></select></td>
+			<td align="center"><input name="attr_GEN_BASE_17" size="2" type="text" value="(@{GEN_CHAR_17})" disabled="true" class="sheet-short"/></td>
+			<td align="center"><input name="attr_GEN_PTS_17" size="2" type="text" VALUE="0" class="sheet-short"></td>
+			<td align="center"><input name="attr_GEN_RAT_17" size="2" type="text"  value="(@{GEN_BASE_17}+@{GEN_PTS_17})"  disabled="true" class="sheet-short"></td>
+			<td align="center"><button type='roll' name='roll_testskill' value='&{template:default} {{name=@{character_name}}} {{skill=@{GENERAL_17}}} {{target=[[@{GEN_RAT_17}]]}} {{Skill check =[[1d100-1]]}}' class='dee'></button></span></td>
+		</tr>
+		<tr>
+			<td align="center">18</td>
+			<td align="center"><input name="attr_GENERAL_18" size="15" type="text" /></td>
+			<td align="center"><select name="attr_GEN_CHAR_18"><option value="0">(SELECT)</option><option value="@{STR}">STR</option><option value="@{DEX}">DEX</option><option value="@{CON}">CON</option><option value="@{INT}">INT</option><option value="@{WIS}">WIS</option><option value="@{CHA}">CHA</option><option value="@{TECH}">TECH</option></select></td>
+			<td align="center"><input name="attr_GEN_BASE_18" size="2" type="text" value="(@{GEN_CHAR_18})" disabled="true" class="sheet-short"/></td>
+			<td align="center"><input name="attr_GEN_PTS_18" size="2" type="text" VALUE="0" class="sheet-short"></td>
+			<td align="center"><input name="attr_GEN_RAT_18" size="2" type="text"  value="(@{GEN_BASE_18}+@{GEN_PTS_18})"  disabled="true" class="sheet-short"></td>
+			<td align="center"><button type='roll' name='roll_testskill' value='&{template:default} {{name=@{character_name}}} {{skill=@{GENERAL_18}}} {{target=[[@{GEN_RAT_18}]]}} {{Skill check =[[1d100-1]]}}' class='dee'></button></span></td>
+		</tr>
+		<tr>
+			<td align="center">19</td>
+			<td align="center"><input name="attr_GENERAL_19" size="15" type="text" /></td>
+			<td align="center"><select name="attr_GEN_CHAR_19"><option value="0">(SELECT)</option><option value="@{STR}">STR</option><option value="@{DEX}">DEX</option><option value="@{CON}">CON</option><option value="@{INT}">INT</option><option value="@{WIS}">WIS</option><option value="@{CHA}">CHA</option><option value="@{TECH}">TECH</option></select></td>
+			<td align="center"><input name="attr_GEN_BASE_19" size="2" type="text" value="(@{GEN_CHAR_19})" disabled="true" class="sheet-short"/></td>
+			<td align="center"><input name="attr_GEN_PTS_19" size="2" type="text" VALUE="0" class="sheet-short"></td>
+			<td align="center"><input name="attr_GEN_RAT_19" size="2" type="text"  value="(@{GEN_BASE_19}+@{GEN_PTS_19})"  disabled="true" class="sheet-short"></td>
+			<td align="center"><button type='roll' name='roll_testskill' value='&{template:default} {{name=@{character_name}}} {{skill=@{GENERAL_19}}} {{target=[[@{GEN_RAT_19}]]}} {{Skill check =[[1d100-1]]}}' class='dee'></button></span></td>
+		</tr>
+		<tr>
+			<td align="center">20</td>
+			<td align="center"><input name="attr_GENERAL_20" size="15" type="text" value="(@{GEN_CHAR_20})" disabled="true"/></td>
+			<td align="center"><select name="attr_GEN_CHAR_20"><option value="0">(SELECT)</option><option value="@{STR}">STR</option><option value="@{DEX}">DEX</option><option value="@{CON}">CON</option><option value="@{INT}">INT</option><option value="@{WIS}">WIS</option><option value="@{CHA}">CHA</option><option value="@{TECH}">TECH</option></select></td>
+			<td align="center"><input name="attr_GEN_BASE_20" size="2" type="text" value="(@{GEN_CHAR_20})" disabled="true" class="sheet-short"/></td>
+			<td align="center"><input name="attr_GEN_PTS_20" size="2" type="text" VALUE="0" class="sheet-short"></td>
+			<td align="center"><input name="attr_GEN_RAT_20" size="2" type="text"  value="(@{GEN_BASE_20}+@{GEN_PTS_20})"  disabled="true" class="sheet-short"></td>
+			<td align="center"><button type='roll' name='roll_testskill' value='&{template:default} {{name=@{character_name}}} {{skill=@{GENERAL_20}}} {{target=[[@{GEN_RAT_20}]]}} {{Skill check =[[1d100-1]]}}' class='dee'></button></span></td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<table border="0" cellpadding="0" cellspacing="0">
+	<tbody>
+		<tr>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;"><strong>Other Equipment</strong></span></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;"><strong>Weight</strong></span></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;"><strong>Notes</strong></span></td>
+		</tr>
+		<tr>
+			<td align="center"><input name="attr_EQUIP_1" size="15" type="text" /></td>
+			<td align="center"><input name="attr_EQUIP_1_WT" size="4" type="text" class="sheet-short"/></td>
+			<td align="center"><input name="attr_EQUIP_1_NOTES" size="10" type="text" /></td>
+		</tr>
+		<tr>
+			<td align="center"><input name="attr_EQUIP_2" size="15" type="text" /></td>
+			<td align="center"><input name="attr_EQUIP_2_WT" size="4" type="text" class="sheet-short"/></td>
+			<td align="center"><input name="attr_EQUIP_2_NOTES" size="10" type="text" /></td>
+		</tr>
+		<tr>
+			<td align="center"><input name="attr_EQUIP_3" size="15" type="text" /></td>
+			<td align="center"><input name="attr_EQUIP_3_WT" size="4" type="text" class="sheet-short"/></td>
+			<td align="center"><input name="attr_EQUIP_3_NOTES" size="10" type="text" /></td>
+		</tr>
+		<tr>
+			<td align="center"><input name="attr_EQUIP_4" size="15" type="text" /></td>
+			<td align="center"><input name="attr_EQUIP_4_WT" size="4" type="text" class="sheet-short"/></td>
+			<td align="center"><input name="attr_EQUIP_4_NOTES" size="10" type="text" /></td>
+		</tr>
+		<tr>
+			<td align="center"><input name="attr_EQUIP_51" size="15" type="text" /></td>
+			<td align="center"><input name="attr_EQUIP_5_WT" size="4" type="text" class="sheet-short"/></td>
+			<td align="center"><input name="attr_EQUIP_5_NOTES" size="10" type="text" /></td>
+		</tr>
+		<tr>
+			<td align="center"><input name="attr_EQUIP_6" size="15" type="text" /></td>
+			<td align="center"><input name="attr_EQUIP_6_WT" size="4" type="text" class="sheet-short"/></td>
+			<td align="center"><input name="attr_EQUIP_6_NOTES" size="10" type="text" /></td>
+		</tr>
+		<tr>
+			<td align="center"><input name="attr_EQUIP_7" size="15" type="text" /></td>
+			<td align="center"><input name="attr_EQUIP_7_WT" size="4" type="text" class="sheet-short"/></td>
+			<td align="center"><input name="attr_EQUIP_7_NOTES" size="10" type="text" /></td>
+		</tr>
+		<tr>
+			<td align="center"><input name="attr_EQUIP_8" size="15" type="text" /></td>
+			<td align="center"><input name="attr_EQUIP_8_WT" size="4" type="text" class="sheet-short"/></td>
+			<td align="center"><input name="attr_EQUIP_8_NOTES" size="10" type="text" /></td>
+		</tr>
+		<tr>
+			<td align="center"><input name="attr_EQUIP_9" size="15" type="text" /></td>
+			<td align="center"><input name="attr_EQUIP_9_WT" size="4" type="text" class="sheet-short"/></td>
+			<td align="center"><input name="attr_EQUIP_9_NOTES" size="10" type="text" /></td>
+		</tr>
+		<tr>
+			<td align="center"><input name="attr_EQUIP_10" size="15" type="text" /></td>
+			<td align="center"><input name="attr_EQUIP_10_WT" size="4" type="text" class="sheet-short"/></td>
+			<td align="center"><input name="attr_EQUIP_10_NOTES" size="10" type="text" /></td>
+		</tr>
+		<tr>
+			<td align="center"><input name="attr_EQUIP_11" size="15" type="text" /></td>
+			<td align="center"><input name="attr_EQUIP_11_WT" size="4" type="text" class="sheet-short"/></td>
+			<td align="center"><input name="attr_EQUIP_11_NOTES" size="10" type="text" /></td>
+		</tr>
+		<tr>
+			<td align="center"><input name="attr_EQUIP_12" size="15" type="text" /></td>
+			<td align="center"><input name="attr_EQUIP_12_WT" size="4" type="text" class="sheet-short"/></td>
+			<td align="center"><input name="attr_EQUIP_12_NOTES" size="10" type="text" /></td>
+		</tr>
+		<tr>
+			<td align="center"><input name="attr_EQUIP_13" size="15" type="text" /></td>
+			<td align="center"><input name="attr_EQUIP_13_WT" size="4" type="text" class="sheet-short"/></td>
+			<td align="center"><input name="attr_EQUIP_13_NOTES" size="10" type="text" /></td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<table border="0" cellpadding="0" cellspacing="0">
+	<tbody>
+		<tr>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;"><strong>Weapon</strong></span></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;"><strong>To-Hit</strong></span></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;"><strong>Range</strong></span></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;"><strong>Dmg</strong></span></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;"><strong>Weight</strong></span></td>
+			<td align="center"><span style="font-family:arial,helvetica,sans-serif;"><strong>Notes</strong></span></td>
+			<td align="center">Attack</td>
+		
+		</tr>
+		<tr>
+			<td align="center"><input name="attr_WEAP_1" size="10" type="text" /></td>
+			<td align="center"><input name="attr_WEAP_1_HIT" size="2" type="text"  class="sheet-short"/></td>
+			<td align="center"><input name="attr_WEAP_1_RANGE" size="6" type="text"  class="sheet-short"/></td>
+			<td align="center"><input name="attr_WEAP_1_DMG" size="5" type="text" /></td>
+			<td align="center"><input name="attr_WEAP_1_WT" size="4" type="text"  class="sheet-short"/></td>
+			<td align="center"><input name="attr_WEAP_1_NOTES" size="10" type="text" /></td>
+			<td align="center"><button type='roll' name='roll_testattack' value='&{template:default} {{name=@{character_name}}} {{Weapon=@{WEAP_1}}} {{Attack=[[1d20 + @{WEAP_1_HIT}]]}} {{Damage=[[@{WEAP_1_DMG}]]}}'></button></span></td>
+		</tr>
+		<tr>
+			<td align="center"><input name="attr_WEAP_2" size="10" type="text" /></td>
+			<td align="center"><input name="attr_WEAP_2_HIT" size="2" type="text"  class="sheet-short"/></td>
+			<td align="center"><input name="attr_WEAP_2_RANGE" size="6" type="text"  class="sheet-short"/></td>
+			<td align="center"><input name="attr_WEAP_2_DMG" size="5" type="text" /></td>
+			<td align="center"><input name="attr_WEAP_2_WT" size="4" type="text" class="sheet-short" /></td>
+			<td align="center"><input name="attr_WEAP_2_NOTES" size="10" type="text" /></td>
+			<td align="center"><button type='roll' name='roll_testattack' value='&{template:default} {{name=@{character_name}}} {{Weapon=@{WEAP_2}}}{{Attack=[[1d20 + @{WEAP_2_HIT}]]}} {{Damage=[[@{WEAP_2_DMG}]]}}'></button></span></td>
+		</tr>
+		<tr>
+			<td align="center"><input name="attr_WEAP_3" size="10" type="text" /></td>
+			<td align="center"><input name="attr_WEAP_3_HIT" size="2" type="text"  class="sheet-short"/></td>
+			<td align="center"><input name="attr_WEAP_3_RANGE" size="6" type="text"  class="sheet-short"/></td>
+			<td align="center"><input name="attr_WEAP_3_DMG" size="5" type="text" /></td>
+			<td align="center"><input name="attr_WEAP_3_WT" size="4" type="text"  class="sheet-short"/></td>
+			<td align="center"><input name="attr_WEAP_3_NOTES" size="10" type="text" /></td>
+			<td align="center"><button type='roll' name='roll_testattack' value='&{template:default} {{name=@{character_name}}} {{Weapon=@{WEAP_3}}} {{Attack=[[1d20 + @{WEAP_3_HIT}]]}} {{Damage=[[@{WEAP_3_DMG}]]}}'></button></span></td>
+
+		</tr>
+		<tr>
+			<td align="center"><input name="attr_WEAP_4" size="10" type="text" /></td>
+			<td align="center"><input name="attr_WEAP_4_HIT" size="2" type="text"  class="sheet-short"/></td>
+			<td align="center"><input name="attr_WEAP_4_RANGE" size="6" type="text"  class="sheet-short"/></td>
+			<td align="center"><input name="attr_WEAP_4_DMG" size="5" type="text" /></td>
+			<td align="center"><input name="attr_WEAP_4_WT" size="4" type="text"  class="sheet-short"/></td>
+			<td align="center"><input name="attr_WEAP_4_NOTES" size="10" type="text" /></td>
+			<td align="center"><button type='roll' name='roll_testattack' value='&{template:default} {{name=@{character_name}}} {{Weapon=@{WEAP_4}}} {{Attack=[[1d20 + @{WEAP_4_HIT}]]}} {{Damage=[[@{WEAP_4_DMG}]]}}'></button></span></td>
+
+		</tr>
+	</tbody>
+</table>
+
+<p><span style="font-family:arial,helvetica,sans-serif;"><strong>Other Notes</strong></span><br />
+<textarea cols="100" name="Other_Notes" rows="20"></textarea> &nbsp;</p>
